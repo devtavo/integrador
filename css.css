@@ -1,23 +1,20 @@
 .fondo {
-    background: url('idr.png') center no-repeat;
+    background: url('fon11.png') center no-repeat;
     background-size: cover;
-    width: 1920px;
-    height: 1080px;
     background-attachment: fixed;
     background-color: rgba(26, 3, 3, 0.329);
-    padding-top: 300px;
-    padding-bottom: -100px;
+    padding-top: 200px;
+    padding-bottom: 250px;
 }
 
 .fondo:before {
     content: '';
     position: absolute;
     top: 0;
+    background-size: cover;
     bottom: 0;
     left: 0;
     right: 0;
-    width: 1920px;
-    height: 1080px;
     background-color: rgba(0, 0, 0, 0.432);
 }
 
@@ -30,15 +27,39 @@ a:visited {
 }
 
 div {
-    border: 0px solid red;
+    border: px solid red;
 }
 
 .icono {
     border-radius: 100px;
-    width: 8em;
-    height: 8em;
+    width: 10em;
+    height: 10em;
     padding: 1em;
-    background: #fff;
+    background: #F7F7F7;
+}
+
+@media (max-width: 576px) {
+    .icono {
+        border-radius: 500px;
+        width: 10em;
+        height: 10em;
+        padding: 1em;
+        background: #F7F7F7;
+    }
+    .fondo:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        background-size: cover;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: rgba(0, 0, 0, 0);
+    }
+    .titulo {
+        color: rgb(255, 255, 255);
+        text-align: center;
+    }
 }
 
 .icono4 {
@@ -92,13 +113,13 @@ div {
 }
 
 .titulo {
-    color: #fff;
+    color: rgb(17, 17, 17);
     text-align: center;
 }
 
 .subtitulo {
     color: #fff;
     text-align: center;
-    font-size: 0.8em;
+    font-size: 1em;
     margin-top: 2px;
 }
