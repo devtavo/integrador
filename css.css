@@ -22,12 +22,17 @@ a {
     color: #fff;
 }
 
+.logo2 {
+    width: 40em;
+    height: 7em;
+}
+
 a:visited {
     color: #fff;
 }
 
 div {
-    border: px solid red;
+    border: 0px solid red;
 }
 
 .icono {
@@ -59,6 +64,18 @@ div {
     .titulo {
         color: rgb(255, 255, 255);
         text-align: center;
+    }
+    .logo2 {
+        width: 20em;
+        height: 5em;
+    }
+    .fondo {
+        background: url('fon11.png') center no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-color: rgba(26, 3, 3, 0.329);
+        padding-top: 30px;
+        padding-bottom: 250px;
     }
 }
 
