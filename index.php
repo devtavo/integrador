@@ -19,9 +19,9 @@
 <!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="assets/login/vendor/css-hamburgers/hamburgers.min.css">
 <!--===============================================================================================-->
-	<link rel="stylesheet" href="http://observatorio.colaboraccion.pe/assets/toastr/toastr.css">
+	<link rel="stylesheet" href="assets/toastr/toastr.css">
      <!-- Estiilos de los Alertasd -->
-     <link rel="stylesheet" href="http://observatorio.colaboraccion.pe/assets/sweetalert2/sweetalert2.css">
+     <link rel="stylesheet" href="assets/sweetalert2/sweetalert2.css">
 <!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="assets/login/css/util.css">
 	<link rel="stylesheet" type="text/css" href="assets/login/css/main.css">
@@ -75,17 +75,17 @@
 
 
 <!--===============================================================================================-->
-	<script src="http://observatorio.colaboraccion.pe/assets/login/vendor/jquery/jquery-3.2.1.min.js"></script>
+	<script src="assets/login/vendor/jquery/jquery-3.2.1.min.js"></script>
 
 <!--===============================================================================================-->
-	<script src="http://observatorio.colaboraccion.pe/assets/login/vendor/animsition/js/animsition.min.js"></script>
+	<script src="assets/login/vendor/animsition/js/animsition.min.js"></script>
 <!--===============================================================================================-->
-	<script src="http://observatorio.colaboraccion.pe/assets/login/vendor/bootstrap/js/popper.js"></script>
-	<script src="http://observatorio.colaboraccion.pe/assets/login/vendor/bootstrap/js/bootstrap.min.js"></script>
+	<script src="assets/login/vendor/bootstrap/js/popper.js"></script>
+	<script src="assets/login/vendor/bootstrap/js/bootstrap.min.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 <!--===============================================================================================-->
-	<script src="http://observatorio.colaboraccion.pe/assets/toastr/toastr.min.js"></script>
-	<script src="http://observatorio.colaboraccion.pe/assets/sweetalert2/sweetalert2.min.js"></script>
+	<script src="assets/toastr/toastr.min.js"></script>
+	<script src="assets/sweetalert2/sweetalert2.min.js"></script>
 	<!--<script src="assets/app/js/login.js"></script>-->
     <script>
     function prueba(){
